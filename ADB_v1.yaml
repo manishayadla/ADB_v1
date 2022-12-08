@@ -19,8 +19,16 @@ handlers:
 - url: .*
   script: auto
   
- - url: /(.+\.php)$
-  script: \1
+switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
+    case '/createBill.php':
+        require 'createBill.php';
+        break;
+    case 'createDiagnosis.php';
+        require 'createDiagnosis.php';
+        break;
+    default:
+        break;
+}
   
 env_variables:
  MYSQL_HOST: mysql:unix_socket=/cloudsql/adb-yadlamanisha:us-central1:manishayadla
