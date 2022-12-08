@@ -14,6 +14,10 @@ handlers:
 - url: /(.+\.(gif|png|jpg))$
   static_files: \1
   upload: .+\.(gif|png|jpg)$
+  
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
 
 # Serve your app through a front controller at index.php or public/index.php.
 - url: .*
