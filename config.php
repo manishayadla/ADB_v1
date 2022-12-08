@@ -1,5 +1,5 @@
 <?php
-$servername = "adb-yadlamanisha:us-central1:manishayadla";
+$servername = "localhost";
 $username = "root";
 $password = "123";
 
