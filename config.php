@@ -1,6 +1,6 @@
 <?php
 $servername = "127.0.0.1";
-$username = "root";
+$username = "manisha";
 $password = "123";
 
 try {
