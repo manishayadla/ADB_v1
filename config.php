@@ -4,7 +4,7 @@ $host;
 
 $username = "root"; 
 
-$password = "123"; 
+$password = ""; 
 
 $dbname = "hospitalmanagement"; 
 
