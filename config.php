@@ -1,16 +1,14 @@
 <?php
 
-$host;
+$host = "adb-yadlamanisha:us-central1:manishayadla";
 
-$username = "manisha"; 
+$username = "root"; 
 
 $password = "123"; 
 
 $dbname = "hospitalmanagement"; 
 
-public function __construct() {
-    $this->host = getenv(varname:'MYSQL_HOST');
-}
+
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
