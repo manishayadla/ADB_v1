@@ -32,13 +32,13 @@ include "config.php";
 <html>
 <body>
 
-<h2>Create Auction</h2>
+<h2>Create Diagnosis Report</h2>
 
 <form action="" method="POST">
 
   <fieldset>
 
-    <legend>Enter Auction Information:</legend>
+    <legend>Enter Diagnosis Information:</legend>
 
     Diagnosis ID:<br>
 
