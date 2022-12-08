@@ -8,8 +8,7 @@ $password = "";
 
 $dbname = "hospitalmanagement"; 
 
-public function __construct() 
-{
+public function __construct() {
     $this->host = getenv(varname:'MYSQL_HOST');
 }
 
