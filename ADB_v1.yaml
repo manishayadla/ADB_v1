@@ -22,4 +22,4 @@ env_variables:
  MYSQL_HOST: mysql:unix_socket=/cloudsql/adb-yadlamanisha:us-central1:manishayadla
  MYSQL_DB: hospitalmanagement
  MYSQL_USER: root
- MYSQL_PASS: ""
+ MYSQL_PASS: "123"
