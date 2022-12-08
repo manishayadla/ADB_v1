@@ -18,6 +18,10 @@ handlers:
 # Serve your app through a front controller at index.php or public/index.php.
 - url: .*
   script: auto
+  
+ - url: /(.+\.php)$
+  script: \1
+  
 env_variables:
  MYSQL_HOST: mysql:unix_socket=/cloudsql/adb-yadlamanisha:us-central1:manishayadla
  MYSQL_DB: hospitalmanagement
