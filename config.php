@@ -2,9 +2,9 @@
 
 $host;
 
-$username = "manisha"; 
+$username = "root"; 
 
-$password = ""; 
+$password = "123"; 
 
 $dbname = "hospitalmanagement"; 
 
