@@ -1,6 +1,6 @@
 <?php
 
-$servername = "localhost";
+$host;
 
 $username = "root"; 
 
@@ -8,7 +8,12 @@ $password = "";
 
 $dbname = "hospitalmanagement"; 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+public function __construct() 
+{
+    $this->host = getenv(varname:'MYSQL_HOST');
+}
+
+$conn = new mysqli($host, $username, $password, $dbname);
 
 if ($conn->connect_error) {
 
