@@ -2,7 +2,7 @@
 
 $host;
 
-$username = "root"; 
+$username = "manisha"; 
 
 $password = ""; 
 
