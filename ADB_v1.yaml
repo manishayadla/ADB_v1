@@ -20,6 +20,6 @@ handlers:
   script: auto
 env_variables:
  MYSQL_HOST: mysql:unix_socket=/cloudsql/adb-yadlamanisha:us-central1:manishayadla
- MYSQL_DB: cloud
- MYSQL_USER: manisha
- MYSQL_PASS: 77777
+ MYSQL_DB: hospitalmanagement
+ MYSQL_USER: root
+ MYSQL_PASS: ""
