@@ -1,34 +1,4 @@
-<?php 
 
-include "config.php";
-
-  if (isset($_POST['submit'])) {
-
-    $Bill_Id = $_POST['Bill_Id'];
-    $Doc_Charges = $_POST['Doc_Charges'];
-    $Room_Charges = $_POST['Room_Charges'];
-    $Medical_Charges = $_POST['Medical_Charges'];
-    
-     $sql = "INSERT INTO `bill`(`Bill_Id`, `Doc_Charges`, `Room_Charges`, `Medical_Charges`) VALUES ('$Bill_Id', '$Doc_Charges', '$Room_Charges', '$Medical_Charges')";
-
-
-    $result = $conn->query($sql);
-
-    if ($result == TRUE) {
-
-      echo "New record created successfully.";
-
-    }else{
-
-      echo "Error:". $sql . "<br>". $conn->error;
-
-    } 
-
-    $conn->close(); 
-
-  }
-
-?>
 
 <!DOCTYPE html>
 
