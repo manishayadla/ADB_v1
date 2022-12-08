@@ -72,7 +72,7 @@ include "config.php";
     <input type="submit" name="submit" value="submit">
 
     <br><br>
-    <a href="index.php">Return to Home</a>
+    <a href="index.php">Return to Home Page</a>
 
   </fieldset>
 
